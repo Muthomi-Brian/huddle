@@ -4,7 +4,7 @@
   "description": "![Design preview for the Huddle landing page with alternating feature blocks coding challenge](./design/desktop-preview.jpg)",
   "main": "index.js",
   "scripts": {
-    "watch": "tailwindcss build -o ./path/to/output.css --watch",
+    "watch": "tailwindcss build src/input.css -o public/output.css --watch ",
     "build": "cross-env NODE_ENV=production postcss src/input.css -o public/output.css"
   },
   "keywords": [],

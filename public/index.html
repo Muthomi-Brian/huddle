@@ -1,13 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="output.css" rel="stylesheet">
-  <title>Tailwind CSS Test</title>
-</head>
-<body class="bg-blue-500 text-white">
-  <h1 class="text-3xl font-bold">Hello, Tailwind CSS!</h1>
-  <p class="text-green-400 ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, at.</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="/public/output.css" rel="stylesheet" />
+    <title>Tailwind CSS Test</title>
+  </head>
+  <body>
+    <header
+      class="w-full bg-cyan-200 pt-4 px-4 flex flex-col items-center justify-center"
+    >
+      <ul class="flex justify-between items-center mb-5">
+        <li>
+          <img
+            src="/src/images/logo.svg"
+            alt="logo"
+            class="object-contain w-2/3"
+          />
+        </li>
+        <li>
+          <button
+            class="bg-white px-5 py-2 rounded-2xl font-semibold shadow-gray-400 shadow-xl"
+          >
+            Try It Free
+          </button>
+        </li>
+      </ul>
+      <h2 class="text-xl text-center font-bold mb-4">
+        Build the community your fans will love
+      </h2>
+      <p class="text-center font-regular text-base mb-4">
+        Huddle re-imagines the way we build communities. You have a voice,but so
+        does your audience.Create connections with your users as you engage in
+        genuine discussion
+      </p>
+      <button
+        class="bg-pink-500 hover:bg-pink-400 text-xl text-center px-8 py-1 rounded-2xl text-white mb-4"
+      >
+        Get Started For Free
+      </button>
+      <img
+        src="/src/images/illustration-mockups.svg"
+        alt="illustration-mockups"
+        class="w-3/4 mb-6 lg:w-1/3"
+      />
+    </header>
+    <article class="bg-slate-50 p-8 flex flex-col gap-6">
+      <section
+        class="sm:container mx-auto flex flex-col items-center gap-5 p-5 bg-white shadow-md shadow-gray-500 rounded-lg"
+      >
+        <img
+          src="/src/images/illustration-grow-together.svg"
+          alt="illustration-grow-together"
+          class="object-contain max-sm:w-2/3 rounded-lg"
+        />
+        <h2 class="font-semibold text-2xl">Grow Together</h2>
+        <p class="text-center text-xl text-gray-600">
+          Generate meaningful discussions with your audience and build a
+          strong,loyal community.Think of the insightful conversations you miss
+          out on with a feedback form.
+        </p>
+      </section>
+      <section
+        class="sm:container mx-auto flex flex-col items-center gap-5 p-5 bg-white shadow-md shadow-gray-500 rounded-lg"
+      >
+        <img
+          src="/src/images/illustration-flowing-conversation.svg"
+          alt="illustration-grow-together"
+          class="object-contain max-sm:w-2/3 rounded-lg"
+        />
+        <h2 class="font-semibold text-2xl">Flowing conversations</h2>
+        <p class="text-center text-xl text-gray-600">
+          You would'nt paginate a conversation in real life , so why do it
+          online ? Our theards have just in time loading for a more natural flow
+        </p>
+      </section>
+      <section
+        class="sm:container mx-auto flex flex-col items-center gap-5 p-5 bg-white shadow-md shadow-gray-500 rounded-lg"
+      >
+        <img
+          src="/src/images/illustration-your-users.svg"
+          alt="illustration-grow-together"
+          class="object-contain max-sm:w-2/3 rounded-lg"
+        />
+        <h2 class="font-semibold text-2xl">Your Users</h2>
+        <p class="text-center text-xl text-gray-600">
+          It takes no time at all to intergrate huddle with your app's
+          authentication solutions.This means,once signed in your app.Your
+          <br />
+          users can start chatting immediately
+        </p>
+      </section>
+      <section class="flex flex-col gap-3 items-center bg-white shadow-sm shadow-gray-500 p-4 rounded-lg">
+        <h2 class="text-blue-950 font-bold text-2xl text-center">
+          Ready To Build Your Community?
+        </h2>
+        <button
+        class="bg-pink-500 hover:bg-pink-400 text-xl text-center px-8 py-1 rounded-2xl text-white mb-4"
+      >
+        Get Started For Free
+      </button>
+      </section>
+    </article>
+    <footer class=" w-full bg-blue-950 text-white flex flex-col items-start py-5 pl-7 gap-4">
+        <img src="/src/images/logo.svg" alt="logo" class=" w-2/3">
+        <section class=" text-white flex gap-3">
+            <img src="/src/images/icon-location.svg" alt="icon-location" class="object-contain w-8">
+            <p class="text-start text-sm">Lorem ipsum dolor sit, amet consectetur <br> adipisicing elit. Id, officia!</p>
+        </section>
+        <section class=" text-white flex gap-3">
+            <img src="/src/images/icon-phone.svg" alt="icon-location" class="object-contain w-8">
+            <p class="text-start text-xl">+1-543-123-4567</p>
+        </section>
+        <section class=" text-white flex gap-3">
+            <img src="/src/images/icon-email.svg" alt="icon-location" class="object-contain w-8">
+            <p class="text-start text-xl">example@flyo.com</p>
+        </section>
+        <section class="flex flex-col gap-3 text-xl ">
+            <h2>About Us</h2>
+            <h2>What We Do</h2>
+            <h2>FAQ</h2>
+        </section>
+        <section class="flex flex-col gap-3 text-xl ">
+            <h2>Career</h2>
+            <h2>Blog</h2>
+            <h2>Contact Us</h2>
+        </section>
+        <section class="mx-auto flex justify-between gap-4 text-sm">
+            <i class="fa-brands fa-facebook-f p-3 border-4 border-white rounded-full hover:rounded-lg object-cover"></i>
+            <i class="fa-brands fa-x-twitter p-3 border-4 border-white rounded-full hover:rounded-lg object-cover"></i>
+            <i class="fa-brands fa-instagram  p-3 border-4 border-white rounded-full hover:rounded-lg object-cover"></i>
+        </section>
+    </footer>
+  </body>
 </html>
